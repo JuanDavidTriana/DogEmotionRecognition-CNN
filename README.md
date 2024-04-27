@@ -24,7 +24,9 @@ Las imágenes se preprocesan para adaptarlas al formato adecuado para la entrada
 
 ### ¿Qué es un Modelo CNN?
 
-Una red neuronal convolucional (CNN) es un tipo de red neuronal artificial especialmente adecuada para el procesamiento de imágenes. Las CNN están compuestas por múltiples capas, incluidas capas convolucionales, de agrupación y totalmente conectadas. Estas capas trabajan en conjunto para aprender automáticamente patrones y características de las imágenes, lo que hace que las CNN sean muy efectivas en tareas de reconocimiento de imágenes, como la clasificación de emociones en imágenes de perros.
+Un modelo de red neuronal convolucional (CNN) es un tipo de red neuronal artificial diseñada específicamente para el procesamiento de datos de imágenes. Las CNN son altamente efectivas en tareas de reconocimiento de patrones visuales debido a su capacidad para capturar y aprender jerarquías de características en imágenes.
+
+Las CNN están compuestas por múltiples capas, incluyendo capas convolucionales, de agrupación y completamente conectadas. Las capas convolucionales aplican filtros a regiones específicas de la imagen para extraer características, como bordes, texturas y formas. Las capas de agrupación reducen la dimensionalidad de las características extraídas, mientras que las capas completamente conectadas las utilizan para realizar la clasificación final.
 
 ### Entrenamiento del Modelo CNN
 
