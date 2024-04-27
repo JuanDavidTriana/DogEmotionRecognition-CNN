@@ -2,6 +2,12 @@
 
 Este proyecto tiene como objetivo desarrollar un sistema de reconocimiento de emociones en perros utilizando técnicas de aprendizaje profundo, específicamente redes neuronales convolucionales (CNN). Se busca crear un modelo capaz de identificar las emociones principales en imágenes de perros, tales como felicidad, tristeza, ira y relajación.
 
+## Conjunto de Datos Utilizado
+
+Para este proyecto, se utilizó el conjunto de datos "Dog Emotion" disponible en Kaggle. Este conjunto de datos contiene imágenes etiquetadas con diferentes emociones de perros, lo que lo hace ideal para el entrenamiento de modelos de reconocimiento de emociones en perros.
+
+Puedes encontrar el conjunto de datos en el siguiente enlace: [Dog Emotion Dataset](https://www.kaggle.com/datasets/danielshanbalico/dog-emotion)
+
 ## Proceso del Proyecto
 
 ### Preparación del Entorno y Descarga de Datos
