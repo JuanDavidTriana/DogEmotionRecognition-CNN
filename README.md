@@ -8,6 +8,31 @@ Para este proyecto, se utilizó el conjunto de datos "Dog Emotion" disponible en
 
 Puedes encontrar el conjunto de datos en el siguiente enlace: [Dog Emotion Dataset](https://www.kaggle.com/datasets/danielshanbalico/dog-emotion)
 
+## Redes Neuronales Convolucionales (CNN)
+
+Las redes neuronales convolucionales (CNN) son un tipo de red neuronal artificial diseñada específicamente para el procesamiento de datos de imágenes. Las CNN son altamente efectivas en tareas de reconocimiento de patrones visuales debido a su capacidad para capturar y aprender jerarquías de características en imágenes.
+
+### Estructura de una CNN
+
+Una CNN está compuesta por múltiples capas, incluyendo:
+
+![Estructura de una CNN](cnn_structure.png)
+
+- **Capas Convolucionales:** Estas capas aplican filtros a regiones específicas de la imagen para extraer características, como bordes, texturas y formas. Cada filtro produce un "mapa de características" que resalta una característica específica en la imagen.
+  
+- **Capas de Agrupación (Pooling):** Estas capas reducen la dimensionalidad de las características extraídas, lo que ayuda a reducir el costo computacional y el riesgo de sobreajuste. Las operaciones de agrupación suelen ser de máximo o promedio, y reducen el tamaño de las características preservando su información más relevante.
+
+- **Capas Completamente Conectadas:** Estas capas utilizan las características extraídas por las capas anteriores para realizar la clasificación final. Cada neurona en estas capas está conectada a todas las neuronas de la capa anterior, lo que permite capturar relaciones más complejas entre las características.
+
+### Proceso de Aprendizaje
+
+Durante el entrenamiento, una CNN aprende automáticamente a reconocer patrones visuales mediante el proceso de propagación hacia atrás (backpropagation). Durante la propagación hacia atrás, la red ajusta los pesos de sus conexiones para minimizar una función de pérdida, que mide la discrepancia entre las etiquetas de las emociones reales y las predicciones del modelo.
+
+### Aplicaciones de las CNN
+
+Las CNN se utilizan en una amplia variedad de aplicaciones de visión por computadora, incluyendo reconocimiento de objetos, clasificación de imágenes, detección de rostros, segmentación de imágenes y más. En este proyecto específico, se utilizan para el reconocimiento de emociones en imágenes de perros, pero su versatilidad las hace adecuadas para una variedad de tareas relacionadas con el procesamiento de imágenes.
+
+
 ## Proceso del Proyecto
 
 ### Preparación del Entorno y Descarga de Datos
