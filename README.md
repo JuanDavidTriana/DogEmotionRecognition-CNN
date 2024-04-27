@@ -38,8 +38,12 @@ Se visualizan los resultados del modelo, incluidas las métricas de precisión y
 
 Finalmente, se proporciona una función para realizar predicciones en nuevas imágenes de perros. El modelo entrenado se carga y se utiliza para predecir la emoción en la imagen proporcionada.
 
+### Implementación de la Interfaz Web
+
+Después de guardar el modelo entrenado, se implementó una interfaz web utilizando HTML y JavaScript. El archivo `index.html` se abre localmente en un servidor web utilizando el comando `python -m http.server 8080`. Luego, se utiliza ngrok para crear un túnel HTTP y obtener un enlace público que se puede utilizar en diferentes dispositivos para interactuar con la aplicación de reconocimiento de emociones en perros.
+
 ## Objetivo Final
 
 El objetivo final de este proyecto es desarrollar un sistema de reconocimiento de emociones en perros que pueda ser utilizado para diversas aplicaciones, como la detección de emociones en entornos de cuidado de mascotas o la creación de aplicaciones interactivas para propietarios de mascotas.
 
-Este proyecto proporciona una base sólida para futuras investigaciones en el campo del reconocimiento de emociones en animales y puede servir como punto de partida para proyectos más avanzados en este tema.
+Este proyec
