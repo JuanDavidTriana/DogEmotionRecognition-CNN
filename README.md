@@ -22,6 +22,10 @@ Se exploran las imágenes descargadas para comprender la estructura del conjunto
 
 Las imágenes se preprocesan para adaptarlas al formato adecuado para la entrada del modelo CNN. Esto incluye convertir las imágenes a escala de grises, redimensionarlas y normalizar sus valores de píxeles.
 
+### ¿Qué es un Modelo CNN?
+
+Una red neuronal convolucional (CNN) es un tipo de red neuronal artificial especialmente adecuada para el procesamiento de imágenes. Las CNN están compuestas por múltiples capas, incluidas capas convolucionales, de agrupación y totalmente conectadas. Estas capas trabajan en conjunto para aprender automáticamente patrones y características de las imágenes, lo que hace que las CNN sean muy efectivas en tareas de reconocimiento de imágenes, como la clasificación de emociones en imágenes de perros.
+
 ### Entrenamiento del Modelo CNN
 
 Se entrena un modelo de CNN utilizando TensorFlow y Keras. El modelo se entrena con las imágenes preprocesadas y las etiquetas de las emociones correspondientes. Se utiliza un conjunto de técnicas de aumento de datos para mejorar el rendimiento del modelo y evitar el sobreajuste.
@@ -45,5 +49,3 @@ Después de guardar el modelo entrenado, se implementó una interfaz web utiliza
 ## Objetivo Final
 
 El objetivo final de este proyecto es desarrollar un sistema de reconocimiento de emociones en perros que pueda ser utilizado para diversas aplicaciones, como la detección de emociones en entornos de cuidado de mascotas o la creación de aplicaciones interactivas para propietarios de mascotas.
-
-Este proyec
